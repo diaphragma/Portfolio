@@ -1,0 +1,299 @@
+/*min-width: 1824px*/
+@media only screen and (min-width : 1824px) {}
+/*min-width: 1224px*/
+@media only screen and (min-width : 1224px) and (max-width: 1824px) {
+    footer div #footer_text{
+        width: 655px;
+        font-size: 24px;
+    }
+    footer #footer_fio{
+        width: 200px;
+        font-size: 20px;
+    }
+}
+/*min-width: 1224px and max-width: 1440px*/
+@media only screen and (min-width : 1224px) and (max-width : 1440px) {
+    .motivs{
+        width: 100%; 
+    }  
+}
+/*min-width: 1024px and max-width: 1224px*/
+@media only screen and (min-width : 1024px) and (max-width : 1224px) {
+    #interview img{
+        display: none;
+    }  
+    #about_myself_text{
+        border-radius: 0;
+    }
+    .motivs{
+        width: 70%; 
+    } 
+    video{
+        width: 70vw;
+    }
+    footer div #footer_text{
+        width: 655px;
+        font-size: 24px;
+    }
+    footer #footer_fio{
+        width: 200px;
+        font-size: 20px;
+    }
+}
+/*min-width: 768px and max-width: 1024px*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .white_text{
+        line-height: 40px;
+    }
+    .motivs{
+        width: 70%; 
+    } 
+    #interview img{
+        display: none;
+    }   
+    video{
+        width: 70vw;
+    }
+    #links_icons{
+        justify-content: space-around;
+        width: 80%;
+    }
+    .links_icons_images:nth-child(2){
+        margin:0;
+    }
+    #links a {
+        border-bottom: 1px solid transparent;
+    }
+    #links a:hover{
+        border-bottom:1px solid white;
+    }
+    #interview_center{
+        padding:30px;
+    }
+    footer{ 
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    footer div:first-child,footer div:last-child{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    footer div #footer_text{
+        width: 655px;
+        font-size: 20px;
+    }
+    footer #footer_fio{
+        width: 200px;
+        font-size: 18px;
+    }
+}
+/*min-width: 480px and max-width: 768px*/
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+    .white_text{
+        font-size: 2.5vw;
+        line-height: 30px;
+    }
+    #about h2 {
+        font-size: 6vw;
+    }
+    .motivs{
+        width: 70%; 
+    } 
+    .blue_text{
+        font-size: 3vw;
+    }
+    .blue_h2{
+        font-size: 10vw;
+    }
+    .white_h2 {
+        font-size: 10vw;
+    }
+    #interview img{
+        display: none;
+    }   
+    video{
+        width: 70vw;
+    }
+    #links_icons{
+        justify-content: space-around;
+        width: 80%;
+    }
+    .links_icons_images:nth-child(2){
+        margin:0;
+    }
+    #links a {
+        border-bottom: 1px solid transparent;
+    }
+    #links a:hover{
+        border-bottom:1px solid white;
+    }
+    #interview_center{
+        padding:30px;
+    }
+    footer div:first-child,footer div:last-child{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    footer{ 
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    footer div #footer_text{
+        width: 455px;
+        font-size: 16px;
+    }
+    footer #footer_fio{
+        width: 155px;
+        font-size: 16px;
+    }
+}
+/* min-width:480px -  max-width:730px*/
+@media only screen and (min-width : 0480px) and (max-width : 730px) {
+    .carusel{
+        max-width:70vw;
+        height: 300px;
+    }
+    .carusel img{
+        max-width:70vw;
+        height: 300px;
+    } 
+}
+
+/*min-width: 320px and max-width: 480px*/
+@media only screen and (min-width : 0px) and (max-width : 480px) {
+    .white_text{
+        max-width: 86vw;
+        font-size: 3vw;
+        line-height: 20px;
+    }
+    #about h2 {
+        font-size: 7vw;
+    }
+    #about_myself_text{
+        font-size: 5vw;
+    }
+    .carusel{
+        max-width:300px;
+        height: 230px;
+    }
+    .carusel img{
+        max-width:300px;
+        height: 230px;
+    }
+    .carusel .slick-prev, .carusel .slick-next{
+        top: 50%;
+    }
+    .motivs{
+        width: 70%; 
+    } 
+    .blue_text{
+        font-size: 4vw;
+    }
+    .blue_h2{
+        font-size: 10vw;
+    }
+    .white_h2 {
+        font-size: 10vw;
+    }
+    .white_line{
+        height: 5px;
+    }
+    #header_logo{
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+    #interview img{
+        display: none;
+    } 
+    #links_icons{
+        justify-content: space-around;
+        width: 80%;
+    }
+    .links_icons_images:nth-child(2){
+        margin:0;
+    }
+    #links a {
+        border-bottom: 1px solid transparent;
+    }
+    #links a:hover{
+        border-bottom:1px solid white;
+    }
+    #interview_center{
+        padding:30px;
+    }
+    video{
+        width: 70vw;
+    }
+    footer{ 
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    footer div:first-child,footer div:last-child{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    footer div #footer_text{
+        width: 300px;
+        font-size: 14px;
+    }
+    footer #footer_fio{
+        width: 120px;
+        font-size: 12px;
+    }
+}
+
+/*max-width:1440px*/
+@media (max-width:1440px){
+    #about_myself{
+        flex-direction: column-reverse;
+        max-width: 625px;
+    }
+    #about_background{
+        padding: 120px 50px 80px;
+    }
+    #about_myself_text{
+        border-radius: 0;
+    }
+}
+/*max-width:1200px*/
+@media (max-width:1224px){
+    #header_logo{
+        width: 100%;
+    }
+    #header_logo p{
+        font-size: 4vw;
+        margin-left:10px;
+    }   
+    .menu-icon{
+        display: flex;
+        margin-right: 30px;
+    }
+    ul{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position:absolute;
+        top:100px;
+        left: 0;
+        background-color:#3498db;
+        height: 200px;
+        transition: display 1s ease;
+    }
+    ul.active{
+        display: flex;
+        padding-top:10px;
+        transition: display 1s ease;
+    }
+    li { 
+        margin: 20px 10px 0 0;
+    }
+    nav{
+        width: 0;
+    }
+}
+ 
+
