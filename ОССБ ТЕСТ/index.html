@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/response.css">
+    
+    <title>ОСББ"Тест"</title>
+</head>
+<body>
+<!--Header-->
+    <header>
+        <div id="header__top">
+            <div id="header__contacts">
+                <div id="header__tel">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:+38(000)000-00-00"> +38 (000) 000 00 00</a>
+                </div>
+                <div id="header__mail">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:test@i.ua"> test@i.ua</a>
+                </div>
+            </div>
+            <div id="header__logo">
+                <p><span>ОСББ </span>"Тест"</p>
+            </div>
+            <div id="header__login">
+                <img src="images/Vector.png" alt="login_logo">
+                <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.35355 4.35355C8.54882 4.15829 8.54882 3.84171 8.35355 3.64645L5.17157 0.464467C4.97631 0.269204 4.65973 0.269204 4.46447 0.464466C4.2692 0.659729 4.2692 0.976311 4.46447 1.17157L7.29289 4L4.46447 6.82843C4.2692 7.02369 4.2692 7.34027 4.46447 7.53553C4.65973 7.7308 4.97631 7.7308 5.17157 7.53553L8.35355 4.35355ZM-4.37114e-08 4.5L8 4.5L8 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z" fill="white"/>
+                </svg>
+                <p>Вход</p>
+                <a href="#"><p id="header__singup">Регистрация</p></a>
+            </div>
+        </div>
+
+        <nav id="header__nav">
+            <div id="adapt-small">
+
+                <a href="#" id="nav_logo">
+                    <p><span>ОСББ </span>"Тест"</p>
+                </a>
+
+                <a href="#" id="burger">
+                    <span></span>
+                </a>
+            </div>
+            <ul id="adapt-desktop">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Объявления</a></li>
+                <li><a href="#">Управление ОСМД</a></li>
+                <li><a href="#">Отчетность деятельности</a></li>
+                <li><a href="#">Форум для жителей</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--Form-->
+    <section id="form">
+        <div id="form__inner">
+            <h1>Зарегестрируйтесь сейчас</h1>
+            <p>чтобы узнать новости первым!</p>
+            <form id="form__input" action="#" method="POST">
+                <label><input type="text" name="name" id="form__name" placeholder="Ваше имя" required></label>
+                <label><input type="text" name="tel" id="form__tel" placeholder="Ваш номер телефона" required></label>
+                <input type="submit" name="submit" id="form__submit" value="Готово!">
+            </form>
+
+            <div id="mobile-submit">
+                <input type="submit" name="submit" id="extra__submit" value="Готово!">
+            </div>
+
+            <div id="form__steps">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <hr>
+                <hr>
+            </div>
+        </div>
+    </section>
+<!--Gallery-->
+    <section id="lastPhotos">
+        <hr class="grey-line">
+        <h2>Последнее фото</h2>
+        <p> Мы создаем новый стиль управления жильем! 
+            Чем наш стиль работы отличается от других? 
+            Мы создаем территорию для комфортного, безопасного жизни людей,
+            доверивших управление своим домом Жилой управляющей компании.</p>
+        <div id="lastPhotos_gallery">
+            <img src="images/house-yellow.png" alt="house-yellow">
+            <img src="images/house-orange.png" alt="house-orange">
+            <img src="images/house-lux.png" alt="house-lux">
+        </div>    
+        <div class="arrowsNavigation">
+           <a href="#"><img src="images/arrow-left.png" alt="left arrow"></a>
+           <a href="#"><div class="dotnav"></div></a>
+           <a href="#"><div class="dotnav_active"></div></a>
+           <a href="#"><div class="dotnav"></div></a>
+           <a href="#"><div class="dotnav"></div></a>
+           <a href="#"><img src="images/arrow-right.png" alt="right arrow"></a>
+        </div>
+        <a href="#"><div id="lastPhotos__button">смотреть все осбб<hr class="button-line"></div></a>
+    </section>
+
+<img src="images/right-plant.png" alt="right-plant" class="right-plant">
+    <!--Info-->
+<section id="info">
+    <hr class="grey-line">
+    <h2>ИНФОРМАЦИЯ прО КОММУНАЛЬНЫЕ УСЛУГИ</h2>
+    <div id="info__block">
+        <div id="info__desc">
+            <p>Присоединение дома в ОСМД актуалено и для соседних домов, в которых уже успешно функционирует объединене.</p>
+            <p>Совладельцы дома, желающих присоединиться к ОСМД, должны провести общее собрание, на которых утвердят форму 
+                управления домом и решат присоединиться к ОСМД, с которым имеют общую придомовую территорию, элементы 
+                благоустройства и тому подобное.</p>
+            <p>Далее надо письменно обратиться к председателю правления соответствующего ОСМД с просьбой 
+                рассмотреть вопрос о присоединении к ОСМД совладельцев дома. 
+                Правление созывает общее собрание ОСМД, на которых решает вопрос о присоединении.</p>
+            <p>В случае положительного решения созывают общие общее собрание с участием совладельцев обеих домов.<br> 
+                Там утверждают новую редакцию устава совместного ОСМД, решают другие вопросы, связанные с текущей 
+                деятельностью ОСМД. Новая редакция устава подают госрегистратору.</p>
+            <p>Третий вариант присоединения дома к созданного ОСМД - создание ассоциации ОСМД.</p>
+        </div>
+        <div id="info__suppliers">
+            <h3>ПОСТАЧАЛЬНИКИ ПОСЛУГ <br>(ПОДАТИ ПОКАЗНИКИ)</h3>
+            <hr class="grey-line">
+            <ol>
+                <li><span>1</span>Київенерго (електропостачання)</li>
+                <li><span>2</span>Київтеплоенерго (тепло та ГВП)</li>
+                <li><span>3</span>Київводоканал (ХВП)</li>
+            </ol>
+        </div>
+    </div>
+</section>
+<!--Tariff-->
+<section id="tariff">
+    <div id="tariff__block">
+        <hr class="grey-line">
+            <h2>Тарифы</h2>
+        <div id="tariff__calc">
+            <div id="tariff__input">
+                <label for="square">Введите площадь вашего дома (кв/м)</label>
+                <input type="text" id="square" name="square">
+                <label for="square">Введите количество квартир</label>
+                <input type="text" id="amount" name="amount">
+                <div id="tariff__radio">
+                    <p>Количество месяцев</p>
+                    <label><input type="radio" name="time" value="3">3 мес.<span class="radiobutton"></span></label>  
+                    <label><input type="radio" name="time" value="6">6 мес.<span class="radiobutton"></span></label>
+                    <label><input type="radio" name="time" value="9">12 мес.<span class="radiobutton"></span></label>
+                </div>
+            </div>
+
+            <div id="tariff__desc">
+                <p>*Цена на услугу в целом - 600.00 грн.</p>
+                <p>**Сумма на одну квартиру в месяц - 600.00 грн</p>
+                <div>
+                    <img src="images/info.png" alt="info">
+                    <p>Начиная с момента регистрации ОСМД на сайте 
+                        предоставляется <span>90 дней БЕСПЛАТНОГО</span> 
+                        использования сервиса.</p>
+                </div>
+                <p id="price">Стоимость: 0.00 грн.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--News-->
+<section id="news">
+    <hr class="grey-line">
+    <h2>последние новости</h2>
+    
+
+    <div id="news__block">
+        <div id="news__desc">
+            <hr id="green-line">
+            <h2>Повышение контроля руководства за деятельностью ОСББ.</h2>
+            <p id="main-info">Информирование о текущем балансе, сохранение истории платежей, начисление квартплат.
+                Информирование о текущем балансе, сохранение истории платежей, начисление квартплат.
+                Информирование о текущем балансе, сохранение истории платежей, начисление квартплат.</p>
+
+            <p>Информирование о текущем балансе, сохранение истории платежей, начисление квартплат.Информирование о текущем балансе, сохранение истории платежей, начисление квартплат.</p>
+                
+            <a href="#"><p>Читать полностью</p>
+            <svg width="38" height="8" viewBox="0 0 38 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.3536 4.35355C37.5488 4.15829 37.5488 3.84171 37.3536 3.64645L34.1716 0.464466C33.9763 0.269204 33.6597 0.269204 33.4645 0.464466C33.2692 0.659728 33.2692 0.976311 33.4645 1.17157L36.2929 4L33.4645 6.82843C33.2692 7.02369 33.2692 7.34027 33.4645 7.53553C33.6597 7.7308 33.9763 7.7308 34.1716 7.53553L37.3536 4.35355ZM0 4.5H37V3.5H0V4.5Z" fill="#86BC42"/>
+            </svg>
+            </a>
+        </div>
+        <div id="news__img">
+            <img src="images/town.png" alt="town">
+        </div>
+    </div>
+
+    <img src="images/left-bplant.png" alt="left-plant" id="left-plant">
+
+    <div class="arrowsNavigation">
+        <a href="#"><img src="images/arrow-left.png" alt="left arrow"></a>
+        <a href="#"><div class="dotnav"></div></a>
+        <a href="#"><div class="dotnav_active"></div></a>
+        <a href="#"><div class="dotnav"></div></a>
+        <a href="#"><div class="dotnav"></div></a>
+        <a href="#"><img src="images/arrow-right.png" alt="right arrow"></a>
+     </div>
+     <a href="#"><div id="news__button">смотреть все новости<hr class="button-line"></div></a>
+</section>
+
+<!--Footer-->
+<footer>
+    <div id="footer__whiteBlock">
+        <div id="footer__body">
+            <h3><span>ОСББ</span> "Тест"</h3>
+            <p>Огромное количество успешных проектов, не оставило нашу компанию без драгоценного опыта.</p>
+            <p>Мы профессионалы своего дела! </p>
+            <div id="footer__social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer__greyBlock">
+
+        <div id="footer__navigation">
+            <h3>Навигация</h3>
+            <ul>
+                <li><a href="#"><i class="fas fa-chevron-right"></i>Главная</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i>Объявления</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i>Управление ОСМД</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i>Отчетность деятельности</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i>Форум для жителей</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i>Контакты</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i>Регистрация</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i>Войти</a></li>
+            </ul>
+        </div>  
+        
+        <hr id="whiteLine">
+
+        <div id="footer__contacts">
+            <h3>Контакты</h3>
+            <ul>
+                <li><a href="tel:+38(000)000-00-00"><i class="fas fa-phone-alt"></i>+38 (000) 000 00 00</a></li>
+                <li><a href="mailto:test@i.ua"><i class="far fa-envelope"></i>test@i.ua</a></li>
+            </ul>
+        </div>
+        <img src="images/right-plant.png" alt="right-plant" class="right-plant">
+        <img src="images/footer-plant.png" alt="footer-plant" id="footer-plant">
+    </div>
+</footer>
+</body>
+</html>
