@@ -246,6 +246,7 @@ button{
      align-items: center;
      justify-content: center;
      height: 70px;
+     padding:0 10px;
  }  
  .footer a{ 
      color:rgb(255, 153, 0);
