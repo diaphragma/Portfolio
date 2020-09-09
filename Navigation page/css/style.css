@@ -1,0 +1,128 @@
+@import "normalize.css";
+@import "reset.css";
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(116.82deg, #215291 0%, #25DD78 99.83%) no-repeat;
+  background-size: 150%;
+  min-height: 100vh;
+  color: #FFFFFF;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  animation: gradient 3s ease infinite;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+body > p {
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.6);
+}
+body > p:first-of-type {
+  margin: 16px 0;
+}
+body > p:last-of-type {
+  margin-bottom: 70px;
+}
+@media (max-width: 500px) {
+  body > p:last-of-type {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  body > p {
+    font-size: 11px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5vw;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 17px;
+  position: relative;
+}
+#buttons #developer {
+  cursor: not-allowed;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.button {
+  min-width: 200px;
+  height: 80px;
+  background: rgba(196, 196, 196, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 21px;
+  margin: 15px 25px;
+  transition: 1s ease;
+}
+.button:hover {
+  background: rgba(196, 196, 196, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  transition: 1s ease;
+}
+@media (max-width: 500px) {
+  .button {
+    min-width: 165px;
+    height: 60px;
+    font-size: 14px;
+  }
+}
+.button p {
+  margin-bottom: 8px;
+}
+@media (max-width: 500px) {
+  .button p {
+    margin-bottom: 3px;
+  }
+}
+.button .fab, .button .fas {
+  font-size: 25px;
+}
+@media (max-width: 500px) {
+  .button .fab, .button .fas {
+    font-size: 18px;
+  }
+}
